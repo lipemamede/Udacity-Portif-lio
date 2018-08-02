@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+  vertical-align: baseline;
+  line-height: 1;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+	max-width: 100%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	padding: 2%;
+	text-align: center;
+}
+
+.logo {
+	width:  20%;
+	height: 20%;
+	max-height: 140px;
+	max-width: 140px;
+}
+
+.name {
+	height: 20%;
+}
+
+.splash {
+	width: 100%;
+	margin-bottom: 2%;
+}
+
+.hr {
+  background: #7d97ad;
+  height: 2px;
+  width: 100%;
+  margin-top: 2%;
+  margin-bottom: 2%;	
+}
